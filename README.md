@@ -45,10 +45,22 @@
 </head>
 <body>
 
-  <!-- Music always playing -->
-  <audio id="bgMusic" src="oneyplays dancing HD.mp3" autoplay loop></audio>
+  <!-- Autoplay Disclaimer -->
+  <div id="autoplayDisclaimer" class="modal-backdrop" style="display:flex;">
+    <div class="modal">
+      <h3>Invitation.</h3>
+      <p> If you dont want music to play mute this page</p>
+      <p style="margin-bottom:12px; ">𝘸𝘦𝘭𝘤𝘰𝘮𝘦..</p>
+      
+      <button id="dismissDisclaimer">enjoy</button>
+      
+    </div>
+  </div>
 
-  <div class="container">
+  <div class="container" style="display:none">
+
+    <!-- Music always playing -->
+    <audio id="bgMusic" src="oneyplays dancing HD.mp3" autoplay loop></audio>
 
     <!-- INDEX -->
     <section id="index" class="section active">
@@ -174,6 +186,24 @@
   </div>
 
   <script>
+    // AUTOPLAY DISCLAIMER
+    const disclaimer = document.getElementById('autoplayDisclaimer');
+const dismissBtn = document.getElementById('dismissDisclaimer');
+const container = document.querySelector('.container');
+const bgMusic = document.getElementById('bgMusic');
+
+// Hide the site initially
+container.style.display = 'none';
+
+dismissBtn.addEventListener('click', () => {
+  disclaimer.style.display = 'none';
+  container.style.display = 'block';
+  bgMusic.play().catch(err => {
+    console.warn('Autoplay blocked or user gesture required.', err);
+  });
+});
+
+    // PASSWORD LOGIC
     const correctHashHex="0738b0c530718b75e1641296c300cda1cc028991784cd79aa4f65423d9dc10f0";
     async function sha256Hex(message){const encoder=new TextEncoder();const data=encoder.encode(message);const hashBuffer=await crypto.subtle.digest('SHA-256',data);const hashArray=Array.from(new Uint8Array(hashBuffer));return hashArray.map(b=>b.toString(16).padStart(2,'0')).join('');}
 
