@@ -117,67 +117,78 @@ bag of shit Cheez-Its 120g  <div class = "money-counter">$1</div>
 
 
 
-
-</html>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Games Unblocked when you put in the code scroll down   </title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0d0d0d;
-      color: white;
-      text-align: center;
-      margin-top: 100px;
-    }
-
-    .secret-text {
-      color: #00ccff;
-      font-size: 28px;
-      cursor: pointer;
-      text-decoration: underline;
-      transition: 0.3s;
-    }
-
-    .secret-text:hover {
-      color: #66e0ff;
-    }
-
-    #hiddenContent {
-      display: none;
-      margin-top: 30px;
-      font-size: 20px;
-      color: #00ff99;
-    }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Games Unblocked — Enter code</title>
+<style>
+  body { font-family: Arial, sans-serif; background:#0d0d0d; color:#fff; text-align:center; margin-top:80px; }
+  .secret-text { color:#00ccff; cursor:pointer; text-decoration:underline; }
+  #hiddenContent { display:none; margin-top:30px; font-size:18px; color:#00ff99; }
+</style>
 </head>
 <body>
 
-  <h1>Games Unblocked <br> (scroll down if youve entered the pass.)</h1>
+  <h1>Games Unblocked <br> (scroll down if you've entered the pass.)</h1>
   <p class="secret-text" onclick="enterPassword()">Click here to enter</p>
 
-  <div id="hiddenContent">
-    welcome ig.<br><br> <a href ="https://hypackellite.github.io/library.html"> https://hypackellite.github.io/library.html </a><br><br>
-    
-    <a href ="https://buttertoasty.github.io/Bowl/">https://buttertoasty.github.io/Bowl/ https://map-l.github.io/</a> <br><br> <a href ="https://buttertoasty.github.io/Bowl/">https://fortnite-game.github.io/</a>
+  <div id="hiddenContent" aria-hidden="true">
+    welcome ig.<br><br>
+    <a href="https://hypackellite.github.io/library.html">hypackellite</a><br><br>
+    <a href="https://buttertoasty.github.io/Bowl/">buttertoast</a><br><br>
+    <a href="https://fortnite-game.github.io/">Fortnite game </a>
   </div>
 
-  <script>
-    function enterPassword() {
-      const password = prompt("Enter the password:");
-      const correctPassword = "kaleenhighishit"; // Password you asked for
+<script>
+/*
+ Client-side password check using SHA-256 hash comparison.
+ The plaintext password is NOT in the code. Only the hash is stored.
+ Note: Client-side hashing prevents casual discovery, but is not foolproof.
+*/
 
-      if (password === correctPassword) {
-        document.getElementById("hiddenContent").style.display = "block";
-      } else {
-        alert("Incorrect password. Try again.");
-      }
+
+const correctHashHex = "0738b0c530718b75e1641296c300cda1cc028991784cd79aa4f65423d9dc10f0";
+
+/**
+ * Compute SHA-256 hash of a string and return hex digest (lowercase).
+ * Uses Web Crypto API.
+ * @param {string} message
+ * @returns {Promise<string>} hex digest
+ */
+async function sha256Hex(message) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(message);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  // convert buffer to hex string
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  return hashHex;
+}
+
+async function enterPassword() {
+  const input = prompt("Enter the password:");
+  if (input === null) return; // user cancelled
+
+  try {
+    const digest = await sha256Hex(input);
+    if (digest === correctHashHex) {
+      // show the content
+      const hidden = document.getElementById("hiddenContent");
+      hidden.style.display = "block";
+      hidden.setAttribute("aria-hidden", "false");
+      // optionally scroll to revealed content
+      hidden.scrollIntoView({behavior: "smooth"});
+    } else {
+      alert("Incorrect password. Try again.");
     }
-    
-  </script>
+  } catch (err) {
+    console.error("Hashing failed:", err);
+    alert("An error occurred. Try again.");
+  }
+}
+</script>
 
 </body>
 </html>
