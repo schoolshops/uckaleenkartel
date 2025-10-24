@@ -1,167 +1,221 @@
-<html>
-<head>
-<title>Uc kaleen kartel | Hey lets keep this a secret okay?</title>
-<style>
-    body {
-        background-color: #000;
-        color: white;
-        font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    h2 {
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-family: 'Segoe UI';
-    }
-
-    .text-box1 {
-    border: 2px solid #8d1616;
-    padding: 20px;
-    background-color: transparent; 
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    color: #ff3333; 
-    font-size: 20px; 
-}
-
-    
-    .text-box1:hover {
-        border-color: #ff4444;
-        box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
-        transform: scale(1.02);
-    }
-
-    
-    .text-box1 a {
-        color: #ff3333;
-        text-decoration: none;
-        transition: color 0.2s ease;
-    }
-
-    .text-box1 a:hover {
-        color: #ff5555;
-    }
-
-    .money-counter {
-        color: #00ff00;
-    }
-
-    .socials {
-        font-family: 'Segoe UI';
-    }
-</style>
-</head>
-
-<body>
-<h2>Uc kaleen kartel</h2>
-
-<h3>
-<div class="socials"> 
-<p2>Message us to buy stuff</p2>
-<br><br>
-<p2>Insta: <a href="https://www.instagram.com/aldikanye69/">Aldikanye69</a></p2>
-<br>
-<p3>sms 049320189</p3>
-<br>
-<p4>Whatsapp: +6193270189</p4>
-<br>
-<p5>Tiktok: <a href="https://www.tiktok.com/@uckaleenkartel">uckaleenkartel</a></p5>
-<br>
-<p6>Pay id +61-493-270-189</p6>
-</div>
-</h3>
-
-<h1>Items.</h1>
-
-<a href="rocktopus.html" style="text-decoration:none"> 
-    <div class="text-box1">
-        <p>56 mm Rocktopus <div class="money-counter">$2</div></p>
-    </div>
-</a>
-
-<div class="text-box1">
-    <p>6 orange notes <div class="money-counter">$1</div></p>
-</div>
-<a href="roll ups.html" style="text-decoration:none">
-<div class="text-box1">
-    <p>1 fruit roll up (import from america) <div class="money-counter">¢50</div></p> 
-</div>
-</a>
-<div class="text-box1">
-    <p>bag of shit Cheez-Its 120g <div class="money-counter">$1</div></p> 
-</div>
-
-<h1>Websites <br><br>
-<p2>⚠️if a website gets blocked or you get a virus its not on us⚠️</p2>
-
-<div class="text-box1">unblocked games <div class="money-counter">50¢ a pop</div></div>
-
-<div class="text-box1">Pirated movie websites <div class="money-counter">1 for $1</div></div>
-
-<div class="text-box1">Website with everything unblocked (video's dont work) <div class="money-counter">$3</div></div>
-</h1>
-
-<!-- Games Unblocked password section -->
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Games Unblocked — Enter code</title>
-<style>
-  body { font-family: Arial, sans-serif; background:#0d0d0d; color:#fff; text-align:center; margin-top:80px; }
-  .secret-text { color:#00ccff; cursor:pointer; text-decoration:underline; }
-  #hiddenContent { display:none; margin-top:30px; font-size:18px; color:#00ff99; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Uc kaleen kartel | Hey keep this a secret okay?</title>
+  <style>
+    :root{--bg:#f4f4f8;--card: rgba(255,255,255,0.95);--accent:#d63031;--muted:#555}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,Roboto,Arial;background:var(--bg);color:var(--muted);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px}
+    .container{width:980px;max-width:96vw}
+    .fade-up{opacity:0;transform:translateY(18px);animation:fadeUp 600ms forwards}
+    .stagger-1{animation-delay:120ms}.stagger-2{animation-delay:260ms}.stagger-3{animation-delay:420ms}
+    @keyframes fadeUp{to{opacity:1;transform:none}}@keyframes popOut{to{opacity:0;transform:scale(0.98) translateY(-10px)}}
+    header{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px}h2{margin:0;color:#2d3436;font-size:28px}.tagline{color:var(--muted);font-size:13px;margin-top:4px}
+    .card{background:var(--card);padding:18px;border-radius:12px;margin-bottom:14px;box-shadow:0 8px 30px rgba(0,0,0,0.06)}.socials p{margin:6px 0}.socials a{color:var(--accent);text-decoration:none}
+    h1{color:#2d3436;margin:10px 0}
+    .text-box{display:flex;justify-content:space-between;align-items:center;padding:14px;border-radius:8px;background:rgba(255,255,255,0.9);border:1px solid rgba(214,48,49,0.6);margin:10px 0;transition:transform 180ms ease,box-shadow 180ms ease}
+    .text-box:hover{transform:translateY(-4px);box-shadow:0 10px 30px rgba(0,0,0,0.08)}.money{color:var(--accent);font-weight:700}a.inline{color:var(--accent);text-decoration:none}
+    .note{font-size:13px;color:#d63031}
+    .section{display:none}.section.active{display:block}
+    .overlay{position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(20,20,20,0.02);pointer-events:none;opacity:0;transition:opacity 420ms ease}.overlay.show{opacity:1;pointer-events:auto}
+    .overlay .panel{position:absolute;left:50%;top:45%;transform:translate(-50%,-50%) scale(0.98);background:var(--card);padding:22px;border-radius:10px;box-shadow:0 20px 60px rgba(0,0,0,0.12);opacity:0;transition:opacity 360ms ease,transform 360ms ease}.overlay.show .panel{opacity:1;transform:translate(-50%,-50%) scale(1)}
+    .game-frame{width:100%;height:480px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);overflow:hidden;background:#fff}
+    iframe{width:100%;height:100%;border:none;border-radius:8px}
+    /* password modal */
+    .modal-backdrop{position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.35);display:none;align-items:center;justify-content:center}
+    .modal{background:var(--card);padding:18px;border-radius:10px;min-width:320px;box-shadow:0 20px 60px rgba(0,0,0,0.18)}
+    .modal h3{margin:0 0 8px 0;color:#222;font-size:16px}
+    .modal .row{display:flex;gap:8px;align-items:center}
+    .modal input[type=password]{flex:1;padding:8px;border-radius:6px;border:1px solid rgba(0,0,0,0.08);font-size:14px}
+    .modal button{padding:8px 12px;border-radius:6px;border:none;background:var(--accent);color:#fff;cursor:pointer}
+    .modal .btn-ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--muted)}
+    @media(max-width:420px){.modal{min-width:90vw}}
+
+    /* Product pages */
+    .product-img{width:100%;max-width:400px;border-radius:10px;box-shadow:0 0 12px rgba(0,0,0,0.15);margin:20px auto;display:block}
+    .text-box1{border:2px solid rgba(214,48,49,0.6);background:var(--card);border-radius:8px;padding:20px;margin:20px auto;max-width:500px}
+    .money-counter{color:#00ff66;font-weight:700;margin-top:10px;text-align:right}
+    .center-text{text-align:center}
+    .back-link{text-align:center;margin-top:40px}
+    .back-link a{text-decoration:none;color:var(--accent);border:1px solid var(--accent);padding:8px 14px;border-radius:6px;transition:all 0.2s ease}
+    .back-link a:hover{background-color:var(--accent);color:#fff}
+  </style>
 </head>
 <body>
 
-<h1>Games Unblocked <br> (scroll down if you've entered the pass.)</h1>
-<p class="secret-text" onclick="enterPassword()">Click here to enter</p>
+  <!-- Music always playing -->
+  <audio id="bgMusic" src="oneyplays dancing HD.mp3" autoplay loop></audio>
 
-<div id="hiddenContent" aria-hidden="true">
-    welcome ig.<br><br>
-    <a href="https://hypackellite.github.io/library.html">hypackellite</a><br><br>
-    <a href="https://buttertoasty.github.io/Bowl/">buttertoast</a><br><br>
-    <a href="https://fortnite-game.github.io/">Fortnite game</a>
-</div>
+  <div class="container">
 
-<script>
-const correctHashHex = "0738b0c530718b75e1641296c300cda1cc028991784cd79aa4f65423d9dc10f0";
+    <!-- INDEX -->
+    <section id="index" class="section active">
+      <header>
+        <div>
+          <h2 class="fade-up">Uc kaleen kartel</h2>
+          <div class="tagline fade-up stagger-1">Hey keep this a secret okay?</div>
+        </div>
+      </header>
 
-async function sha256Hex(message) {
-  const encoder = new TextEncoder();
-  const data = encoder.encode(message);
-  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-  return hashHex;
-}
+      <div class="card socials fade-up stagger-2">
+        <p style="font-weight:600">Message us to buy stuff</p>
+        <p>Insta: <a href="https://www.instagram.com/aldikanye69/">Aldikanye69</a></p>
+        <p>sms: 0493 201 89</p>
+        <p>Whatsapp: +61 9327 0189</p>
+        <p>Tiktok: <a href="https://www.tiktok.com/@uckaleenkartel">uckaleenkartel</a></p>
+        <p>Pay id: +61-493-270-189</p>
+      </div>
 
-async function enterPassword() {
-  const input = prompt("Enter the password:");
-  if (input === null) return;
+      <h1 class="fade-up stagger-1">Items.</h1>
+      <div class="text-box fade-up stagger-2" onclick="showProduct('rocktopus')"><span>56 mm Rocktopus</span><span class="money">$2</span></div>
+      <div class="text-box fade-up stagger-3" onclick="showProduct('orangeNotes')"><span>6 orange notes</span><span class="money">$1</span></div>
+      <div class="text-box fade-up stagger-2" onclick="showProduct('fruitRollUps')"><span>1 fruit roll up (import from america)</span><span class="money">¢50</span></div>
+      <div class="text-box fade-up stagger-3" onclick="showProduct('cheezits')"><span>Cheez-Its 120g</span><span class="money">$1</span></div>
 
-  try {
-    const digest = await sha256Hex(input);
-    if (digest === correctHashHex) {
-      const hidden = document.getElementById("hiddenContent");
-      hidden.style.display = "block";
-      hidden.setAttribute("aria-hidden", "false");
-      hidden.scrollIntoView({behavior: "smooth"});
-    } else {
-      alert("Incorrect password. Try again.");
+      <h1 class="fade-up">Websites</h1>
+      <p class="note">⚠️ If a website gets blocked or you get a virus it's not on us ⚠️</p>
+      <div class="text-box fade-up"><span>unblocked games access (proxy)</span><span class="money">2$</span></div>
+      <div class="text-box fade-up"><span>Pirated movie websites</span><span class="money">1 for $1</span></div>
+      <div class="text-box fade-up"><span>Website with everything unblocked (video's don't work)</span><span class="money">$3</span></div>
+
+      <div class="card fade-up" style="margin-top:18px">
+        <h1 style="margin:0 0 8px 0">Games Unblocked <small style="font-size:12px;color:var(--muted)">(scroll down if you've entered the pass.)</small></h1>
+        <p class="secret-text" style="color:#0984e3;cursor:pointer;text-decoration:underline;" onclick="showPasswordModal()">Click here to enter</p>
+        <div id="hiddenContent" style="display:none;margin-top:12px;color:#00b894"></div>
+      </div>
+    </section>
+
+    <!-- GAMES -->
+    <section id="games" class="section">
+      <div class="card fade-up">
+        <button onclick="goHome()" style="border:none;background:transparent;color:var(--accent);cursor:pointer;margin-bottom:8px">← Back</button>
+        <h1 style="margin-top:0">Games Unblocked</h1>
+        <p style="margin-top:0">Choose a site — the page animates in.</p>
+
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin:12px 0">
+          <div class="text-box" onclick="loadGameSite('https://hypackellite.github.io/library.html')" style="cursor:pointer">hypackellite <span class="money">open</span></div>
+          <div class="text-box" onclick="loadGameSite('https://buttertoasty.github.io/Bowl/')" style="cursor:pointer">buttertoast <span class="money">open</span></div>
+          <div class="text-box" onclick="loadGameSite('https://fortnite-game.github.io/')" style="cursor:pointer">Fortnite game <span class="money">open</span></div>
+        </div>
+
+        <div id="gameArea" style="margin-top:14px">
+          <div id="gamePlaceholder" class="card" style="text-align:center;">No site loaded — pick one above.</div>
+          <div id="gameFrame" class="game-frame" style="display:none"><iframe id="iframeContent" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT PAGES -->
+    <section id="rocktopus" class="section">
+      <div class="center-text fade-up">
+        <h1>Rocktopus (56 mm)</h1>
+        <img src="il_570xN.3812942040_9sww.webp" alt="Rocktopus" class="product-img">
+        <div class="text-box1">
+          <p>The legendary 56mm Rocktopus — Made out of white filament. And fun to fidget with.</p>
+          <div class="money-counter">$2</div>
+        </div>
+        <div class="back-link"><a onclick="goHome()">← Back to Items</a></div>
+      </div>
+    </section>
+
+    <section id="orangeNotes" class="section">
+      <div class="center-text fade-up">
+        <h1>6 Orange Notes</h1>
+        <div class="text-box1">
+          <p>Just six simple orange notes, nothing fancy.</p>
+          <div class="money-counter">$1</div>
+        </div>
+        <div class="back-link"><a onclick="goHome()">← Back to Items</a></div>
+      </div>
+    </section>
+
+    <section id="fruitRollUps" class="section">
+      <div class="center-text fade-up">
+        <h1>Fruit Roll Ups (one each)</h1>
+        <img src="images.jpg" alt="Fruit Roll Ups" class="product-img">
+        <div class="text-box1">
+          <p>Mystery flavoured Fruit Roll Ups - Imo Very tasty</p>
+          <div class="money-counter">50¢</div>
+        </div>
+        <div class="back-link"><a onclick="goHome()">← Back to Items</a></div>
+      </div>
+    </section>
+
+    <section id="cheezits" class="section">
+      <div class="center-text fade-up">
+        <h1>Cheez-Its 120g</h1>
+        <div class="text-box1">
+          <p>Bag of Cheez-Its, not much else to say.</p>
+          <img src="sdg.jpg">
+          <div class="money-counter">$1</div>
+        </div>
+        <div class="back-link"><a onclick="goHome()">← Back to Items</a></div>
+      </div>
+    </section>
+
+  </div>
+
+  <div id="overlay" class="overlay"><div class="panel">Redirecting…</div></div>
+
+  <!-- Password modal -->
+  <div id="modalBackdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal" role="document">
+      <h3>Enter password</h3>
+      <div style="margin-bottom:8px;color:var(--muted);font-size:13px">well dont just stare, type it in!</div>
+      <div class="row">
+        <input id="pwInput" type="password" aria-label="password input" placeholder="Password" />
+        <button id="pwOk">Enter</button>
+        <button id="pwCancel" class="btn-ghost">Cancel</button>
+      </div>
+      <div id="pwMsg" style="margin-top:8px;color:#d63031;display:none;font-size:13px"></div>
+    </div>
+  </div>
+
+  <script>
+    const correctHashHex="0738b0c530718b75e1641296c300cda1cc028991784cd79aa4f65423d9dc10f0";
+    async function sha256Hex(message){const encoder=new TextEncoder();const data=encoder.encode(message);const hashBuffer=await crypto.subtle.digest('SHA-256',data);const hashArray=Array.from(new Uint8Array(hashBuffer));return hashArray.map(b=>b.toString(16).padStart(2,'0')).join('');}
+
+    const modalBackdrop=document.getElementById('modalBackdrop');
+    const pwInput=document.getElementById('pwInput');
+    const pwOk=document.getElementById('pwOk');
+    const pwCancel=document.getElementById('pwCancel');
+    const pwMsg=document.getElementById('pwMsg');
+
+    function showPasswordModal(){pwMsg.style.display='none'; pwInput.value=''; modalBackdrop.style.display='flex'; modalBackdrop.setAttribute('aria-hidden','false'); setTimeout(()=>pwInput.focus(),60);}
+    function closePasswordModal(){modalBackdrop.style.display='none'; modalBackdrop.setAttribute('aria-hidden','true'); pwInput.value='';}
+
+    pwCancel.addEventListener('click',()=>{closePasswordModal();});
+    pwOk.addEventListener('click',async ()=>{await submitPassword();});
+    pwInput.addEventListener('keydown', async (e)=>{if(e.key==='Enter'){await submitPassword();} if(e.key==='Escape'){closePasswordModal();}});
+
+    async function submitPassword(){
+      const val=pwInput.value||'';
+      if(!val){pwMsg.textContent='Please enter the password.';pwMsg.style.display='block';return;}
+      try{
+        const digest=await sha256Hex(val);
+        if(digest===correctHashHex){
+          closePasswordModal();
+          const overlay=document.getElementById('overlay');overlay.classList.add('show');
+          setTimeout(()=>{document.getElementById('index').classList.remove('active');document.getElementById('index').style.animation='popOut 300ms forwards';},200);
+          setTimeout(()=>{overlay.classList.remove('show');showSection('games');},800);
+        }else{pwMsg.textContent='Incorrect password. Try again.';pwMsg.style.display='block';pwInput.value='';pwInput.focus();}
+      }catch(err){console.error(err);pwMsg.textContent='Error — try again.';pwMsg.style.display='block';}
     }
-  } catch (err) {
-    console.error("Hashing failed:", err);
-    alert("An error occurred. Try again.");
-  }
-}
-</script>
 
+    function showSection(id){
+      document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+      const el=document.getElementById(id); el.classList.add('active');
+      el.querySelectorAll('.fade-up').forEach((node,i)=>{node.style.animationDelay=(i*80)+'ms';node.style.opacity='0';node.style.transform='translateY(18px)';setTimeout(()=>{node.style.animation='fadeUp 600ms forwards';},50)});
+      setTimeout(()=>{el.scrollIntoView({behavior:'smooth'});},120);
+    }
+    function goHome(){showSection('index');}
+
+    function showProduct(id){showSection(id);}
+    function loadGameSite(url){const iframe=document.getElementById('iframeContent'); const frameDiv=document.getElementById('gameFrame'); const placeholder=document.getElementById('gamePlaceholder'); placeholder.style.display='none'; frameDiv.style.display='block'; iframe.src=url;}
+
+    modalBackdrop.addEventListener('click',(e)=>{if(e.target===modalBackdrop) closePasswordModal();});
+  </script>
 </body>
 </html>
