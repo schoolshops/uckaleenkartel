@@ -1,122 +1,111 @@
 <html>
 <head>
-<title> Uc kaleen kartel | Hey lets keep this secret ok?</title>
+<title>Uc kaleen kartel | Hey lets keep this a secret okay?</title>
 <style>
-    h2{
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-        
+    body {
+        background-color: #000;
+        color: white;
+        font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    h1{
-        font-family:  'Segoe UI' 
-        
+
+    h2 {
+        margin-bottom: 10px;
     }
-    p{
-        font-family:  'Segoe UI';
-        bold
-        -webkit-text-fill-color: ;color: black;
-        
+
+    h1 {
+        font-family: 'Segoe UI';
     }
-    p1{
-        font-family:  'Segoe UI';
-        bold
-        -webkit-text-fill-color: ;color: black;
-        
-    }
-        .text-box1 {
-  border: 2px solid #333; /* Adds a solid border */
-  padding: 20px; /* Adds space between the text and the border */
-  background-color: #f0f0f0; /* Sets a background color */
-  margin: 10px; /* Adds space around the entire box */
-  border-radius: 8px; /* Rounds the corners of the box */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
-  
+
+    .text-box1 {
+    border: 2px solid #8d1616;
+    padding: 20px;
+    background-color: transparent; 
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    color: #ff3333; 
+    font-size: 20px; 
 }
-.money-counter
-{
-color:green;
-}
-.socials{
-    font-family: 'Segoe UI',;
+
     
-}
+    .text-box1:hover {
+        border-color: #ff4444;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+        transform: scale(1.02);
+    }
 
+    
+    .text-box1 a {
+        color: #ff3333;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
 
+    .text-box1 a:hover {
+        color: #ff5555;
+    }
+
+    .money-counter {
+        color: #00ff00;
+    }
+
+    .socials {
+        font-family: 'Segoe UI';
+    }
 </style>
-
 </head>
 
 <body>
-<h2>
-    Uc kaleen kartel
-</h2>
+<h2>Uc kaleen kartel</h2>
+
 <h3>
-<div class = socials> 
+<div class="socials"> 
 <p2>Message us to buy stuff</p2>
-<br>
-<br>
+<br><br>
 <p2>Insta: <a href="https://www.instagram.com/aldikanye69/">Aldikanye69</a></p2>
 <br>
 <p3>sms 049320189</p3>
 <br>
-<p4>
-Whatsapp: +6193270189
-</p4>
+<p4>Whatsapp: +6193270189</p4>
 <br>
-<p5>Tiktok: <a href="https://www.tiktok.com/@uckaleenkartel"> uckaleenkartel</a>
-</p5>
+<p5>Tiktok: <a href="https://www.tiktok.com/@uckaleenkartel">uckaleenkartel</a></p5>
 <br>
 <p6>Pay id +61-493-270-189</p6>
-    </div>
+</div>
 </h3>
 
-<h1>
-    Items.
-</h1>
-<h1>
-    <div class = text-box1>
-        <p>
-        56 mm Rocktopus <div class = "money-counter">$3</div>
-        </p>
-        </div>
-<div class = text-box1>
-<p> 
-6 orange notes <div class = "money-counter">$1</div>
-</p>
-</div>
-<div class = text-box1>
-<p>
-1 fruit roll up (import from america) <div class = "money-counter">¢50 </div> </p> 
+<h1>Items.</h1>
 
+<a href="rocktopus.html" style="text-decoration:none"> 
+    <div class="text-box1">
+        <p>56 mm Rocktopus <div class="money-counter">$2</div></p>
+    </div>
+</a>
+
+<div class="text-box1">
+    <p>6 orange notes <div class="money-counter">$1</div></p>
 </div>
-<div class = text-box1>
-<p>
-bag of shit Cheez-Its 120g  <div class = "money-counter">$1</div>
-</p> 
+<a href="roll ups.html" style="text-decoration:none">
+<div class="text-box1">
+    <p>1 fruit roll up (import from america) <div class="money-counter">¢50</div></p> 
 </div>
-</h1>
+</a>
+<div class="text-box1">
+    <p>bag of shit Cheez-Its 120g <div class="money-counter">$1</div></p> 
+</div>
+
 <h1>Websites <br><br>
-    <p2>
-        ⚠️if a website gets blocked or you get a virus its not on us⚠️</p>
+<p2>⚠️if a website gets blocked or you get a virus its not on us⚠️</p2>
 
-<p1>
-    <div class = text-box1>unblocked games <div class = "money-counter">50¢ a pop </div></div></p1>
+<div class="text-box1">unblocked games <div class="money-counter">50¢ a pop</div></div>
 
-<p1><div class = text-box1>Pirated movie websites <div class = "money-counter"> 1 for $1 </div></div></p1>
+<div class="text-box1">Pirated movie websites <div class="money-counter">1 for $1</div></div>
 
-<p1><div class = text-box1>Website with everything unblocked (video's dont work) <div class = "money-counter"> $3 </div></div></p>
+<div class="text-box1">Website with everything unblocked (video's dont work) <div class="money-counter">$3</div></div>
+</h1>
 
- </h1>
-
-</body>
-
-
-
-
-
-
-
-
-
+<!-- Games Unblocked password section -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -131,37 +120,23 @@ bag of shit Cheez-Its 120g  <div class = "money-counter">$1</div>
 </head>
 <body>
 
-  <h1>Games Unblocked <br> (scroll down if you've entered the pass.)</h1>
-  <p class="secret-text" onclick="enterPassword()">Click here to enter</p>
+<h1>Games Unblocked <br> (scroll down if you've entered the pass.)</h1>
+<p class="secret-text" onclick="enterPassword()">Click here to enter</p>
 
-  <div id="hiddenContent" aria-hidden="true">
+<div id="hiddenContent" aria-hidden="true">
     welcome ig.<br><br>
     <a href="https://hypackellite.github.io/library.html">hypackellite</a><br><br>
     <a href="https://buttertoasty.github.io/Bowl/">buttertoast</a><br><br>
-    <a href="https://fortnite-game.github.io/">Fortnite game </a>
-  </div>
+    <a href="https://fortnite-game.github.io/">Fortnite game</a>
+</div>
 
 <script>
-/*
- Client-side password check using SHA-256 hash comparison.
- The plaintext password is NOT in the code. Only the hash is stored.
- Note: Client-side hashing prevents casual discovery, but is not foolproof.
-*/
-
-
 const correctHashHex = "0738b0c530718b75e1641296c300cda1cc028991784cd79aa4f65423d9dc10f0";
 
-/**
- * Compute SHA-256 hash of a string and return hex digest (lowercase).
- * Uses Web Crypto API.
- * @param {string} message
- * @returns {Promise<string>} hex digest
- */
 async function sha256Hex(message) {
   const encoder = new TextEncoder();
   const data = encoder.encode(message);
   const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-  // convert buffer to hex string
   const hashArray = Array.from(new Uint8Array(hashBuffer));
   const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
   return hashHex;
@@ -169,16 +144,14 @@ async function sha256Hex(message) {
 
 async function enterPassword() {
   const input = prompt("Enter the password:");
-  if (input === null) return; // user cancelled
+  if (input === null) return;
 
   try {
     const digest = await sha256Hex(input);
     if (digest === correctHashHex) {
-      // show the content
       const hidden = document.getElementById("hiddenContent");
       hidden.style.display = "block";
       hidden.setAttribute("aria-hidden", "false");
-      // optionally scroll to revealed content
       hidden.scrollIntoView({behavior: "smooth"});
     } else {
       alert("Incorrect password. Try again.");
