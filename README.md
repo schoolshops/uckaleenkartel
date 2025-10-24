@@ -1,2 +1,88 @@
+<html>
+<head>
+<title> Uc kaleen kartel | Hey lets keep this secret ok?</title>
+<style>
+    h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        
+    }
+    h1{
+        font-family:  'Segoe UI' 
+        
+    }
+    p{
+        font-family:  'Segoe UI';
+        bold
+        
+    }
+        .text-box1 {
+  border: 2px solid #333; /* Adds a solid border */
+  padding: 20px; /* Adds space between the text and the border */
+  background-color: #f0f0f0; /* Sets a background color */
+  margin: 10px; /* Adds space around the entire box */
+  border-radius: 8px; /* Rounds the corners of the box */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+.money-counter
+{
+color:green;
 
-uckaleenkartel.github.io
+}
+        
+    
+   
+</style>
+
+</head>
+
+<body>
+<h2>
+    Uc kaleen kartel
+</h2>
+<p>Message us to buy stuff</p>
+<p>Insta: <a href="https://www.instagram.com/aldikanye69/">Aldikanye69</a></p>
+<p>sms 049320189</p>
+<p>
+Whatsapp: +6193270189
+</p>
+<p>Tiktok:
+    <a href= "https://www.tiktok.com/@uckaleenkartel">uckaleenkartel</a>
+</p>
+
+<br>
+<h1>
+    Items.
+</h1>
+<div class = text-box1>
+<p>
+6 orange notes <div class = "money-counter">$1</div>
+</p>
+</div>
+<div class = text-box1>
+<p>
+1 fruit roll up (import) <div class = "money-counter">$50 cents </div> </p> 
+
+</div>
+<div class = text-box1>
+<p>
+bag of shit Cheez-Its 120g  <div class = "money-counter">$1</div>
+</p> 
+</div>
+<h1> Websites
+</p>h1>
+</p>Pirated movie websites 4 for $2 1 for $1</p>
+<p>Website with everything unblocked (videoes dont work) (slow) $3</p>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
